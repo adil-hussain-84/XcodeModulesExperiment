@@ -12,7 +12,6 @@
 		BCEACD4B26946CF300E982E2 /* Framework1.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEACD3D26946CF200E982E2 /* Framework1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCEACD79269470A700E982E2 /* SomeAwesomeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEACD77269470A700E982E2 /* SomeAwesomeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCEACD7A269470A700E982E2 /* SomeAwesomeFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD78269470A700E982E2 /* SomeAwesomeFramework.m */; };
-		BCEACD7B269470A700E982E2 /* SomeAwesomeFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD78269470A700E982E2 /* SomeAwesomeFramework.m */; };
 		BCEACD8426947C5500E982E2 /* Greeter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD8326947C5500E982E2 /* Greeter.m */; };
 		BCEACD8526947C5500E982E2 /* Greeter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCEACD8226947C5500E982E2 /* Greeter.h */; };
 		BCEACD8B26947D2D00E982E2 /* libLibrary1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEACD8026947C5500E982E2 /* libLibrary1.a */; };
@@ -276,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCEACD7B269470A700E982E2 /* SomeAwesomeFramework.m in Sources */,
 				BCEACD4926946CF300E982E2 /* Framework1Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
