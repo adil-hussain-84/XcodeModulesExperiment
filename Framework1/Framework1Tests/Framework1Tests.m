@@ -7,22 +7,34 @@
 
 #import <XCTest/XCTest.h>
 #import <Framework1/SomeAwesomeFramework.h>
+#import <Library1/Greeter.h>
 
 @interface Framework1Tests : XCTestCase
-
 @end
 
-@implementation Framework1Tests
+@implementation Framework1Tests {
+    SomeAwesomeFramework *someAwesomeFramework;
+}
 
-- (void)test_greeting {
-    // Given.
-    SomeAwesomeFramework *someAwesomeFramework = [[SomeAwesomeFramework alloc] init];
-    
+- (void)setUp {
+    [super setUp];
+    someAwesomeFramework = [[SomeAwesomeFramework alloc] init];
+}
+
+- (void)test_greeting_1 {
     // When.
-    NSString *actual = [someAwesomeFramework greeting];
+    NSString *greeting = [someAwesomeFramework greeting];
     
     // Then.
-    XCTAssertEqualObjects(@"Hello", actual);
+    XCTAssertEqualObjects(@"Hello", greeting);
+}
+
+- (void)test_greeting_2 {
+    // When.
+    NSString *greeting = [someAwesomeFramework greeting];
+    
+    // Then.
+    XCTAssertEqualObjects([[[Greeter alloc] init] greeting], greeting);
 }
 
 @end
