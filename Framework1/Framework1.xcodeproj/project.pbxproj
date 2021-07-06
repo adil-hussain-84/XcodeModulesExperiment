@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BCEACD4426946CF300E982E2 /* Framework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEACD3A26946CF200E982E2 /* Framework1.framework */; };
-		BCEACD4926946CF300E982E2 /* Framework1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD4826946CF300E982E2 /* Framework1Tests.m */; };
+		BCEACD4926946CF300E982E2 /* SomeAwesomeFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD4826946CF300E982E2 /* SomeAwesomeFrameworkTests.m */; };
 		BCEACD4B26946CF300E982E2 /* Framework1.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEACD3D26946CF200E982E2 /* Framework1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCEACD79269470A700E982E2 /* SomeAwesomeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEACD77269470A700E982E2 /* SomeAwesomeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCEACD7A269470A700E982E2 /* SomeAwesomeFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD78269470A700E982E2 /* SomeAwesomeFramework.m */; };
@@ -45,7 +45,7 @@
 		BCEACD3D26946CF200E982E2 /* Framework1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Framework1.h; sourceTree = "<group>"; };
 		BCEACD3E26946CF200E982E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCEACD4326946CF300E982E2 /* Framework1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Framework1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCEACD4826946CF300E982E2 /* Framework1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Framework1Tests.m; sourceTree = "<group>"; };
+		BCEACD4826946CF300E982E2 /* SomeAwesomeFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeAwesomeFrameworkTests.m; sourceTree = "<group>"; };
 		BCEACD4A26946CF300E982E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCEACD77269470A700E982E2 /* SomeAwesomeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeAwesomeFramework.h; sourceTree = "<group>"; };
 		BCEACD78269470A700E982E2 /* SomeAwesomeFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeAwesomeFramework.m; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 		BCEACD4726946CF300E982E2 /* Framework1Tests */ = {
 			isa = PBXGroup;
 			children = (
-				BCEACD4826946CF300E982E2 /* Framework1Tests.m */,
+				BCEACD4826946CF300E982E2 /* SomeAwesomeFrameworkTests.m */,
 				BCEACD4A26946CF300E982E2 /* Info.plist */,
 			);
 			path = Framework1Tests;
@@ -275,7 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCEACD4926946CF300E982E2 /* Framework1Tests.m in Sources */,
+				BCEACD4926946CF300E982E2 /* SomeAwesomeFrameworkTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
