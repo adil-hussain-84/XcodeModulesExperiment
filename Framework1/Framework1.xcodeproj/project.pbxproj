@@ -16,6 +16,10 @@
 		BCEACD8526947C5500E982E2 /* Greeter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCEACD8226947C5500E982E2 /* Greeter.h */; };
 		BCEACD8B26947D2D00E982E2 /* libLibrary1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEACD8026947C5500E982E2 /* libLibrary1.a */; };
 		BCEACD8F2694907F00E982E2 /* SomeAwesomeFrameworkTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD8E2694907F00E982E2 /* SomeAwesomeFrameworkTests2.swift */; };
+		BCEACD922694A03700E982E2 /* GreetingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEACD902694A03700E982E2 /* GreetingHelper.h */; };
+		BCEACD932694A03700E982E2 /* GreetingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD912694A03700E982E2 /* GreetingHelper.m */; };
+		BCEACD982694A11C00E982E2 /* GreetingHelperTests1.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD972694A11C00E982E2 /* GreetingHelperTests1.m */; };
+		BCEACD9A2694A1DC00E982E2 /* GreetingHelperTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD992694A1DC00E982E2 /* GreetingHelperTests2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		BCEACD8326947C5500E982E2 /* Greeter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Greeter.m; sourceTree = "<group>"; };
 		BCEACD8D2694907E00E982E2 /* Framework1Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Framework1Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		BCEACD8E2694907F00E982E2 /* SomeAwesomeFrameworkTests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeAwesomeFrameworkTests2.swift; sourceTree = "<group>"; };
+		BCEACD902694A03700E982E2 /* GreetingHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreetingHelper.h; sourceTree = "<group>"; };
+		BCEACD912694A03700E982E2 /* GreetingHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreetingHelper.m; sourceTree = "<group>"; };
+		BCEACD972694A11C00E982E2 /* GreetingHelperTests1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreetingHelperTests1.m; sourceTree = "<group>"; };
+		BCEACD992694A1DC00E982E2 /* GreetingHelperTests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingHelperTests2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				BCEACD3D26946CF200E982E2 /* Framework1.h */,
+				BCEACD902694A03700E982E2 /* GreetingHelper.h */,
+				BCEACD912694A03700E982E2 /* GreetingHelper.m */,
 				BCEACD3E26946CF200E982E2 /* Info.plist */,
 				BCEACD77269470A700E982E2 /* SomeAwesomeFramework.h */,
 				BCEACD78269470A700E982E2 /* SomeAwesomeFramework.m */,
@@ -120,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				BCEACD8D2694907E00E982E2 /* Framework1Tests-Bridging-Header.h */,
+				BCEACD972694A11C00E982E2 /* GreetingHelperTests1.m */,
+				BCEACD992694A1DC00E982E2 /* GreetingHelperTests2.swift */,
 				BCEACD4A26946CF300E982E2 /* Info.plist */,
 				BCEACD4826946CF300E982E2 /* SomeAwesomeFrameworkTests1.m */,
 				BCEACD8E2694907F00E982E2 /* SomeAwesomeFrameworkTests2.swift */,
@@ -152,6 +164,7 @@
 			files = (
 				BCEACD4B26946CF300E982E2 /* Framework1.h in Headers */,
 				BCEACD79269470A700E982E2 /* SomeAwesomeFramework.h in Headers */,
+				BCEACD922694A03700E982E2 /* GreetingHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCEACD932694A03700E982E2 /* GreetingHelper.m in Sources */,
 				BCEACD7A269470A700E982E2 /* SomeAwesomeFramework.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,8 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCEACD982694A11C00E982E2 /* GreetingHelperTests1.m in Sources */,
 				BCEACD8F2694907F00E982E2 /* SomeAwesomeFrameworkTests2.swift in Sources */,
 				BCEACD4926946CF300E982E2 /* SomeAwesomeFrameworkTests1.m in Sources */,
+				BCEACD9A2694A1DC00E982E2 /* GreetingHelperTests2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
