@@ -9,10 +9,10 @@
 #import <Framework1/SomeAwesomeFramework.h>
 #import <Library1/Greeter.h>
 
-@interface SomeAwesomeFrameworkTests : XCTestCase
+@interface SomeAwesomeFrameworkTests1 : XCTestCase
 @end
 
-@implementation SomeAwesomeFrameworkTests {
+@implementation SomeAwesomeFrameworkTests1 {
     SomeAwesomeFramework *someAwesomeFramework;
 }
 
