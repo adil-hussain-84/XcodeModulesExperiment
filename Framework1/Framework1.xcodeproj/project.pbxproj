@@ -13,6 +13,9 @@
 		BCEACD79269470A700E982E2 /* SomeAwesomeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEACD77269470A700E982E2 /* SomeAwesomeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCEACD7A269470A700E982E2 /* SomeAwesomeFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD78269470A700E982E2 /* SomeAwesomeFramework.m */; };
 		BCEACD7B269470A700E982E2 /* SomeAwesomeFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD78269470A700E982E2 /* SomeAwesomeFramework.m */; };
+		BCEACD8426947C5500E982E2 /* Greeter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD8326947C5500E982E2 /* Greeter.m */; };
+		BCEACD8526947C5500E982E2 /* Greeter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCEACD8226947C5500E982E2 /* Greeter.h */; };
+		BCEACD8B26947D2D00E982E2 /* libLibrary1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEACD8026947C5500E982E2 /* libLibrary1.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +28,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BCEACD7E26947C5500E982E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				BCEACD8526947C5500E982E2 /* Greeter.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		BCEACD3A26946CF200E982E2 /* Framework1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Framework1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEACD3D26946CF200E982E2 /* Framework1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Framework1.h; sourceTree = "<group>"; };
@@ -34,6 +50,9 @@
 		BCEACD4A26946CF300E982E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCEACD77269470A700E982E2 /* SomeAwesomeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeAwesomeFramework.h; sourceTree = "<group>"; };
 		BCEACD78269470A700E982E2 /* SomeAwesomeFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeAwesomeFramework.m; sourceTree = "<group>"; };
+		BCEACD8026947C5500E982E2 /* libLibrary1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibrary1.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEACD8226947C5500E982E2 /* Greeter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Greeter.h; sourceTree = "<group>"; };
+		BCEACD8326947C5500E982E2 /* Greeter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Greeter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCEACD8B26947D2D00E982E2 /* libLibrary1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +72,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BCEACD7D26947C5500E982E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -60,7 +87,9 @@
 			children = (
 				BCEACD3C26946CF200E982E2 /* Framework1 */,
 				BCEACD4726946CF300E982E2 /* Framework1Tests */,
+				BCEACD8126947C5500E982E2 /* Library1 */,
 				BCEACD3B26946CF200E982E2 /* Products */,
+				BCEACD8A26947D2D00E982E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +98,7 @@
 			children = (
 				BCEACD3A26946CF200E982E2 /* Framework1.framework */,
 				BCEACD4326946CF300E982E2 /* Framework1Tests.xctest */,
+				BCEACD8026947C5500E982E2 /* libLibrary1.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,6 +121,22 @@
 				BCEACD4A26946CF300E982E2 /* Info.plist */,
 			);
 			path = Framework1Tests;
+			sourceTree = "<group>";
+		};
+		BCEACD8126947C5500E982E2 /* Library1 */ = {
+			isa = PBXGroup;
+			children = (
+				BCEACD8226947C5500E982E2 /* Greeter.h */,
+				BCEACD8326947C5500E982E2 /* Greeter.m */,
+			);
+			path = Library1;
+			sourceTree = "<group>";
+		};
+		BCEACD8A26947D2D00E982E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +190,23 @@
 			productReference = BCEACD4326946CF300E982E2 /* Framework1Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		BCEACD7F26947C5500E982E2 /* Library1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEACD8826947C5500E982E2 /* Build configuration list for PBXNativeTarget "Library1" */;
+			buildPhases = (
+				BCEACD7C26947C5500E982E2 /* Sources */,
+				BCEACD7D26947C5500E982E2 /* Frameworks */,
+				BCEACD7E26947C5500E982E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Library1;
+			productName = Library1;
+			productReference = BCEACD8026947C5500E982E2 /* libLibrary1.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -156,6 +219,9 @@
 						CreatedOnToolsVersion = 12.5;
 					};
 					BCEACD4226946CF300E982E2 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					BCEACD7F26947C5500E982E2 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -175,6 +241,7 @@
 			targets = (
 				BCEACD3926946CF200E982E2 /* Framework1 */,
 				BCEACD4226946CF300E982E2 /* Framework1Tests */,
+				BCEACD7F26947C5500E982E2 /* Library1 */,
 			);
 		};
 /* End PBXProject section */
@@ -211,6 +278,14 @@
 			files = (
 				BCEACD7B269470A700E982E2 /* SomeAwesomeFramework.m in Sources */,
 				BCEACD4926946CF300E982E2 /* Framework1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEACD7C26947C5500E982E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEACD8426947C5500E982E2 /* Greeter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +494,28 @@
 			};
 			name = Release;
 		};
+		BCEACD8626947C5500E982E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCEACD8726947C5500E982E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -445,6 +542,15 @@
 			buildConfigurations = (
 				BCEACD5226946CF300E982E2 /* Debug */,
 				BCEACD5326946CF300E982E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCEACD8826947C5500E982E2 /* Build configuration list for PBXNativeTarget "Library1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEACD8626947C5500E982E2 /* Debug */,
+				BCEACD8726947C5500E982E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

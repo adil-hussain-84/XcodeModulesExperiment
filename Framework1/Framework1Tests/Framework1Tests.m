@@ -22,7 +22,7 @@
     NSString *actual = [someAwesomeFramework greeting];
     
     // Then.
-    XCTAssertEqual("Hello", actual);
+    XCTAssertEqualObjects(@"Hello", actual);
 }
 
 @end

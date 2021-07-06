@@ -6,11 +6,12 @@
 //
 
 #import "SomeAwesomeFramework.h"
+#import <Library1/Greeter.h>
 
 @implementation SomeAwesomeFramework
 
 -(NSString *)greeting {
-    return @"Hello";
+    return [[[Greeter alloc] init] greeting];
 }
 
 @end
