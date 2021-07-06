@@ -5,8 +5,8 @@
 //  Created by Adil Hussain on 06/07/2021.
 //
 
-#import <XCTest/XCTest.h>
-#import <Framework1/SomeAwesomeFramework.h>
+@import XCTest;
+@import Framework1;
 #import <Library1/Greeter.h>
 
 @interface SomeAwesomeFrameworkTests1 : XCTestCase
