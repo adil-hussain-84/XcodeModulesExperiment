@@ -13,6 +13,3 @@ J2OBJC_HOME = /Users/adilhussain/Library/J2ObjC/j2objc-2.7-Java11
 
 HEADER_SEARCH_PATHS = $(inherited) ${J2OBJC_HOME}/include;
 LIBRARY_SEARCH_PATHS = $(inherited) ${J2OBJC_HOME}/lib;
-
-GENERATED_FILES_DIR = ${BUILD_DIR}/Generated;
-JAVA_SOURCES_PATH = $SRCROOT/$TARGET_NAME;

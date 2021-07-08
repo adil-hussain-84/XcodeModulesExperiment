@@ -34,8 +34,8 @@
 			);
 			isEditable = 1;
 			outputFiles = (
-				"${GENERATED_FILES_DIR}/${INPUT_FILE_BASE}.h",
-				"${GENERATED_FILES_DIR}/${INPUT_FILE_BASE}.m",
+				"${DERIVED_FILES_DIR}/${INPUT_FILE_BASE}.h",
+				"${DERIVED_FILES_DIR}/${INPUT_FILE_BASE}.m",
 			);
 			script = "# Nothing to do here; the Java source files are translated to Objective-C source files as part of a \"Run Script\" Build Phase\n";
 		};
@@ -376,7 +376,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "JAVA_SOURCE_FILES=$(find \"${JAVA_SOURCES_PATH}\" -name '*.java')\n\n\"${J2OBJC_HOME}/j2objc\" -d \"${GENERATED_FILES_DIR}\" --batch-translate-max=40 --no-package-directories --doc-comments --nullability -sourcepath \"${JAVA_SOURCES_PATH}\" $JAVA_SOURCE_FILES\n\nHEADER_FILES=$(find \"${GENERATED_FILES_DIR}\" -name '*.h')\n\nmkdir -p $TARGET_BUILD_DIR/include/$TARGET_NAME\n\ncp $HEADER_FILES $TARGET_BUILD_DIR/include/$TARGET_NAME\n";
+			shellScript = "JAVA_SOURCES_PATH=$SRCROOT/$TARGET_NAME\n\nJAVA_SOURCE_FILES=$(find \"${JAVA_SOURCES_PATH}\" -name '*.java')\n\n\"${J2OBJC_HOME}/j2objc\" -d \"${DERIVED_FILES_DIR}\" --batch-translate-max=40 --no-package-directories --doc-comments --nullability -sourcepath \"${JAVA_SOURCES_PATH}\" $JAVA_SOURCE_FILES\n\nHEADER_FILES=$(find \"${DERIVED_FILES_DIR}\" -name '*.h')\n\nmkdir -p $TARGET_BUILD_DIR/include/$TARGET_NAME\n\ncp $HEADER_FILES $TARGET_BUILD_DIR/include/$TARGET_NAME\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
