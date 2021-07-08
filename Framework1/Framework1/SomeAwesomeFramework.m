@@ -8,10 +8,27 @@
 #import "SomeAwesomeFramework.h"
 #import "GreetingHelper.h"
 
-@implementation SomeAwesomeFramework
+@implementation SomeAwesomeFramework {
+    GreetingHelper *greetingHelper;
+}
 
--(NSString *)greeting {
-    return [[[GreetingHelper alloc] init] greeting];
+- (instancetype)init {
+    if (self = [super init]) {
+        greetingHelper = [[GreetingHelper alloc] init];
+    }
+    return self;
+}
+
+-(NSString *)greetings {
+    NSMutableString *mutableString = [NSMutableString string];
+    
+    [mutableString appendString:[greetingHelper englishGreeting]];
+    [mutableString appendString:@" "];
+    [mutableString appendString:[greetingHelper italianGreeting]];
+    [mutableString appendString:@" "];
+    [mutableString appendString:[greetingHelper spanishGreeting]];
+    
+    return mutableString;
 }
 
 @end

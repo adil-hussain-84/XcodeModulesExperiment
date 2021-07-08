@@ -8,7 +8,9 @@
 @import XCTest;
 
 #import "GreetingHelper.h"
-#import <Library1/Greeter.h>
+#import <Library1/EnglishGreeter.h>
+#import <Library2/ItalianGreeter.h>
+#import <Library2/SpanishGreeter.h>
 
 @interface GreetingHelperTests1 : XCTestCase
 @end
@@ -22,20 +24,52 @@
     greetingHelper = [[GreetingHelper alloc] init];
 }
 
-- (void)test_greeting_1 {
+- (void)test_englishGreeting_1 {
     // When.
-    NSString *greeting = [greetingHelper greeting];
+    NSString *greeting = [greetingHelper englishGreeting];
     
     // Then.
     XCTAssertEqualObjects(@"Hello", greeting);
 }
 
-- (void)test_greeting_2 {
+- (void)test_englishGreeting_2 {
     // When.
-    NSString *greeting = [greetingHelper greeting];
+    NSString *greeting = [greetingHelper englishGreeting];
     
     // Then.
-    XCTAssertEqualObjects([[[Greeter alloc] init] greeting], greeting);
+    XCTAssertEqualObjects([[[EnglishGreeter alloc] init] greeting], greeting);
+}
+
+- (void)test_italianGreeting_1 {
+    // When.
+    NSString *greeting = [greetingHelper italianGreeting];
+    
+    // Then.
+    XCTAssertEqualObjects(@"Ciao", greeting);
+}
+
+- (void)test_italianGreeting_2 {
+    // When.
+    NSString *greeting = [greetingHelper italianGreeting];
+    
+    // Then.
+    XCTAssertEqualObjects([[[ItalianGreeter alloc] init] greeting], greeting);
+}
+
+- (void)test_spanishGreeting_1 {
+    // When.
+    NSString *greeting = [greetingHelper spanishGreeting];
+    
+    // Then.
+    XCTAssertEqualObjects(@"Hola", greeting);
+}
+
+- (void)test_spanishGreeting_2 {
+    // When.
+    NSString *greeting = [greetingHelper spanishGreeting];
+    
+    // Then.
+    XCTAssertEqualObjects([[[SpanishGreeter alloc] init] greeting], greeting);
 }
 
 @end

@@ -6,12 +6,22 @@
 //
 
 #import "GreetingHelper.h"
-#import <Library1/Greeter.h>
+#import <Library1/EnglishGreeter.h>
+#import <Library2/ItalianGreeter.h>
+#import <Library2/SpanishGreeter.h>
 
 @implementation GreetingHelper
 
--(NSString *)greeting {
-    return [[[Greeter alloc] init] greeting];
+-(NSString *)englishGreeting {
+    return [[[EnglishGreeter alloc] init] greeting];
+}
+
+-(NSString *)italianGreeting {
+    return [[[ItalianGreeter alloc] init] greeting];
+}
+
+-(NSString *)spanishGreeting {
+    return [[[SpanishGreeter alloc] init] greeting];
 }
 
 @end

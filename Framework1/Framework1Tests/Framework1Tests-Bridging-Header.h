@@ -3,4 +3,6 @@
 //
 
 #import "GreetingHelper.h"
-#import <Library1/Greeter.h>
+#import <Library1/EnglishGreeter.h>
+#import <Library2/ItalianGreeter.h>
+#import <Library2/SpanishGreeter.h>

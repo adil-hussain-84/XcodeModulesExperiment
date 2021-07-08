@@ -17,19 +17,21 @@ class SomeAwesomeFrameworkTests2: XCTestCase {
         someAwesomeFramework = SomeAwesomeFramework()
     }
     
-    func test_greeting_1() {
+    func test_greetings_1() {
         // When.
-        let greeting = someAwesomeFramework.greeting()
+        let greeting = someAwesomeFramework.greetings()
         
         // Then.
-        XCTAssertEqual("Hello", greeting)
+        XCTAssertEqual("Hello Ciao Hola", greeting)
     }
     
-    func test_greeting_2() {
+    func test_greetings_2() {
         // When.
-        let greeting = someAwesomeFramework.greeting()
+        let greeting = someAwesomeFramework.greetings()
         
         // Then.
-        XCTAssertEqual(Greeter().greeting(), greeting)
+        let expected = "\(EnglishGreeter().greeting()!) \(ItalianGreeter().greeting()!) \(SpanishGreeter().greeting()!)";
+        
+        XCTAssertEqual(expected, greeting)
     }
 }

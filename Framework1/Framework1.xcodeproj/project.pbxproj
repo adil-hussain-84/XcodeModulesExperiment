@@ -3,23 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BCEACD4926946CF300E982E2 /* SomeAwesomeFrameworkTests1.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD4826946CF300E982E2 /* SomeAwesomeFrameworkTests1.m */; };
+		BCEACD4926946CF300E982E2 /* SomeAwesomeFrameworkTests1.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD4826946CF300E982E2 /* SomeAwesomeFrameworkTests1.m */; platformFilter = ios; };
 		BCEACD4B26946CF300E982E2 /* Framework1.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEACD3D26946CF200E982E2 /* Framework1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCEACD79269470A700E982E2 /* SomeAwesomeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEACD77269470A700E982E2 /* SomeAwesomeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCEACD7A269470A700E982E2 /* SomeAwesomeFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD78269470A700E982E2 /* SomeAwesomeFramework.m */; };
-		BCEACD8426947C5500E982E2 /* Greeter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD8326947C5500E982E2 /* Greeter.m */; };
-		BCEACD8526947C5500E982E2 /* Greeter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCEACD8226947C5500E982E2 /* Greeter.h */; };
-		BCEACD8F2694907F00E982E2 /* SomeAwesomeFrameworkTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD8E2694907F00E982E2 /* SomeAwesomeFrameworkTests2.swift */; };
+		BCEACD7A269470A700E982E2 /* SomeAwesomeFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD78269470A700E982E2 /* SomeAwesomeFramework.m */; platformFilter = ios; };
+		BCEACD8426947C5500E982E2 /* EnglishGreeter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD8326947C5500E982E2 /* EnglishGreeter.m */; platformFilter = ios; };
+		BCEACD8526947C5500E982E2 /* EnglishGreeter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCEACD8226947C5500E982E2 /* EnglishGreeter.h */; platformFilter = ios; };
+		BCEACD8F2694907F00E982E2 /* SomeAwesomeFrameworkTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD8E2694907F00E982E2 /* SomeAwesomeFrameworkTests2.swift */; platformFilter = ios; };
 		BCEACD922694A03700E982E2 /* GreetingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEACD902694A03700E982E2 /* GreetingHelper.h */; };
-		BCEACD932694A03700E982E2 /* GreetingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD912694A03700E982E2 /* GreetingHelper.m */; };
-		BCEACD982694A11C00E982E2 /* GreetingHelperTests1.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD972694A11C00E982E2 /* GreetingHelperTests1.m */; };
-		BCEACD9A2694A1DC00E982E2 /* GreetingHelperTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD992694A1DC00E982E2 /* GreetingHelperTests2.swift */; };
-		BCEACDAB2695AF1A00E982E2 /* libLibrary1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEACD8026947C5500E982E2 /* libLibrary1.a */; };
+		BCEACD932694A03700E982E2 /* GreetingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD912694A03700E982E2 /* GreetingHelper.m */; platformFilter = ios; };
+		BCEACD982694A11C00E982E2 /* GreetingHelperTests1.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD972694A11C00E982E2 /* GreetingHelperTests1.m */; platformFilter = ios; };
+		BCEACD9A2694A1DC00E982E2 /* GreetingHelperTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD992694A1DC00E982E2 /* GreetingHelperTests2.swift */; platformFilter = ios; };
+		BCEACDAB2695AF1A00E982E2 /* libLibrary1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEACD8026947C5500E982E2 /* libLibrary1.a */; platformFilter = ios; };
+		BCEACDC22695BA7000E982E2 /* SpanishGreeter.java in Sources */ = {isa = PBXBuildFile; fileRef = BCEACDC12695BA7000E982E2 /* SpanishGreeter.java */; platformFilter = ios; };
+		BCEACDC72695C84A00E982E2 /* ItalianGreeter.java in Sources */ = {isa = PBXBuildFile; fileRef = BCEACDC52695C68300E982E2 /* ItalianGreeter.java */; platformFilter = ios; };
+		BCEACDD126961B6B00E982E2 /* libLibrary2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEACDB62695B72D00E982E2 /* libLibrary2.a */; platformFilter = ios; };
+		BCEACDD42696269E00E982E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEACDD32696269E00E982E2 /* UIKit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		BCEACDC92695CDE200E982E2 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.java;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+				"${GENERATED_FILES_DIR}/${INPUT_FILE_BASE}.h",
+				"${GENERATED_FILES_DIR}/${INPUT_FILE_BASE}.m",
+			);
+			script = "# Nothing to do here; the Java source files are translated to Objective-C source files as part of a \"Run Script\" Build Phase\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		BCEACD4526946CF300E982E2 /* PBXContainerItemProxy */ = {
@@ -36,6 +56,13 @@
 			remoteGlobalIDString = BCEACD7F26947C5500E982E2;
 			remoteInfo = Library1;
 		};
+		BCEACDCD2696112B00E982E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCEACD3126946CF200E982E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCEACDB52695B72D00E982E2;
+			remoteInfo = Library2;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,7 +72,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				BCEACD8526947C5500E982E2 /* Greeter.h in CopyFiles */,
+				BCEACD8526947C5500E982E2 /* EnglishGreeter.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,14 +88,21 @@
 		BCEACD77269470A700E982E2 /* SomeAwesomeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeAwesomeFramework.h; sourceTree = "<group>"; };
 		BCEACD78269470A700E982E2 /* SomeAwesomeFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeAwesomeFramework.m; sourceTree = "<group>"; };
 		BCEACD8026947C5500E982E2 /* libLibrary1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibrary1.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCEACD8226947C5500E982E2 /* Greeter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Greeter.h; sourceTree = "<group>"; };
-		BCEACD8326947C5500E982E2 /* Greeter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Greeter.m; sourceTree = "<group>"; };
+		BCEACD8226947C5500E982E2 /* EnglishGreeter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnglishGreeter.h; sourceTree = "<group>"; };
+		BCEACD8326947C5500E982E2 /* EnglishGreeter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnglishGreeter.m; sourceTree = "<group>"; };
 		BCEACD8D2694907E00E982E2 /* Framework1Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Framework1Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		BCEACD8E2694907F00E982E2 /* SomeAwesomeFrameworkTests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeAwesomeFrameworkTests2.swift; sourceTree = "<group>"; };
 		BCEACD902694A03700E982E2 /* GreetingHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreetingHelper.h; sourceTree = "<group>"; };
 		BCEACD912694A03700E982E2 /* GreetingHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreetingHelper.m; sourceTree = "<group>"; };
 		BCEACD972694A11C00E982E2 /* GreetingHelperTests1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreetingHelperTests1.m; sourceTree = "<group>"; };
 		BCEACD992694A1DC00E982E2 /* GreetingHelperTests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingHelperTests2.swift; sourceTree = "<group>"; };
+		BCEACDB62695B72D00E982E2 /* libLibrary2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibrary2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEACDC12695BA7000E982E2 /* SpanishGreeter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SpanishGreeter.java; sourceTree = "<group>"; };
+		BCEACDC52695C68300E982E2 /* ItalianGreeter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ItalianGreeter.java; sourceTree = "<group>"; };
+		BCEACDCA2695CEBB00E982E2 /* Library2Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Library2Config.xcconfig; sourceTree = "<group>"; };
+		BCEACDCF2696149700E982E2 /* Framework1Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework1Config.xcconfig; sourceTree = "<group>"; };
+		BCEACDD02696159B00E982E2 /* Framework1TestsConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework1TestsConfig.xcconfig; sourceTree = "<group>"; };
+		BCEACDD32696269E00E982E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +110,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCEACDD42696269E00E982E2 /* UIKit.framework in Frameworks */,
 				BCEACDAB2695AF1A00E982E2 /* libLibrary1.a in Frameworks */,
+				BCEACDD126961B6B00E982E2 /* libLibrary2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +139,7 @@
 				BCEACD3C26946CF200E982E2 /* Framework1 */,
 				BCEACD4726946CF300E982E2 /* Framework1Tests */,
 				BCEACD8126947C5500E982E2 /* Library1 */,
+				BCEACDB72695B72D00E982E2 /* Library2 */,
 				BCEACD3B26946CF200E982E2 /* Products */,
 				BCEACD8A26947D2D00E982E2 /* Frameworks */,
 			);
@@ -114,6 +151,7 @@
 				BCEACD3A26946CF200E982E2 /* Framework1.framework */,
 				BCEACD4326946CF300E982E2 /* Framework1Tests.xctest */,
 				BCEACD8026947C5500E982E2 /* libLibrary1.a */,
+				BCEACDB62695B72D00E982E2 /* libLibrary2.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				BCEACD3D26946CF200E982E2 /* Framework1.h */,
+				BCEACDCF2696149700E982E2 /* Framework1Config.xcconfig */,
 				BCEACD902694A03700E982E2 /* GreetingHelper.h */,
 				BCEACD912694A03700E982E2 /* GreetingHelper.m */,
 				BCEACD3E26946CF200E982E2 /* Info.plist */,
@@ -135,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				BCEACD8D2694907E00E982E2 /* Framework1Tests-Bridging-Header.h */,
+				BCEACDD02696159B00E982E2 /* Framework1TestsConfig.xcconfig */,
 				BCEACD972694A11C00E982E2 /* GreetingHelperTests1.m */,
 				BCEACD992694A1DC00E982E2 /* GreetingHelperTests2.swift */,
 				BCEACD4A26946CF300E982E2 /* Info.plist */,
@@ -147,8 +187,8 @@
 		BCEACD8126947C5500E982E2 /* Library1 */ = {
 			isa = PBXGroup;
 			children = (
-				BCEACD8226947C5500E982E2 /* Greeter.h */,
-				BCEACD8326947C5500E982E2 /* Greeter.m */,
+				BCEACD8226947C5500E982E2 /* EnglishGreeter.h */,
+				BCEACD8326947C5500E982E2 /* EnglishGreeter.m */,
 			);
 			path = Library1;
 			sourceTree = "<group>";
@@ -156,8 +196,19 @@
 		BCEACD8A26947D2D00E982E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BCEACDD32696269E00E982E2 /* UIKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCEACDB72695B72D00E982E2 /* Library2 */ = {
+			isa = PBXGroup;
+			children = (
+				BCEACDC52695C68300E982E2 /* ItalianGreeter.java */,
+				BCEACDCA2695CEBB00E982E2 /* Library2Config.xcconfig */,
+				BCEACDC12695BA7000E982E2 /* SpanishGreeter.java */,
+			);
+			path = Library2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +240,7 @@
 			);
 			dependencies = (
 				BCEACDAD2695AF2200E982E2 /* PBXTargetDependency */,
+				BCEACDCE2696112B00E982E2 /* PBXTargetDependency */,
 			);
 			name = Framework1;
 			productName = Framework1;
@@ -230,6 +282,23 @@
 			productReference = BCEACD8026947C5500E982E2 /* libLibrary1.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		BCEACDB52695B72D00E982E2 /* Library2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEACDBC2695B72D00E982E2 /* Build configuration list for PBXNativeTarget "Library2" */;
+			buildPhases = (
+				BCEACDC42695BADD00E982E2 /* ShellScript */,
+				BCEACDB22695B72D00E982E2 /* Sources */,
+			);
+			buildRules = (
+				BCEACDC92695CDE200E982E2 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Library2;
+			productName = Library2;
+			productReference = BCEACDB62695B72D00E982E2 /* libLibrary2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -246,6 +315,9 @@
 						LastSwiftMigration = 1250;
 					};
 					BCEACD7F26947C5500E982E2 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					BCEACDB52695B72D00E982E2 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -266,6 +338,7 @@
 				BCEACD3926946CF200E982E2 /* Framework1 */,
 				BCEACD4226946CF300E982E2 /* Framework1Tests */,
 				BCEACD7F26947C5500E982E2 /* Library1 */,
+				BCEACDB52695B72D00E982E2 /* Library2 */,
 			);
 		};
 /* End PBXProject section */
@@ -286,6 +359,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCEACDC42695BADD00E982E2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "JAVA_SOURCE_FILES=$(find \"${JAVA_SOURCES_PATH}\" -name '*.java')\n\n\"${J2OBJC_HOME}/j2objc\" -d \"${GENERATED_FILES_DIR}\" --batch-translate-max=40 --no-package-directories --doc-comments --nullability -sourcepath \"${JAVA_SOURCES_PATH}\" $JAVA_SOURCE_FILES\n\nHEADER_FILES=$(find \"${GENERATED_FILES_DIR}\" -name '*.h')\n\nmkdir -p $TARGET_BUILD_DIR/include/$TARGET_NAME\n\ncp $HEADER_FILES $TARGET_BUILD_DIR/include/$TARGET_NAME\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BCEACD3626946CF200E982E2 /* Sources */ = {
@@ -312,7 +405,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCEACD8426947C5500E982E2 /* Greeter.m in Sources */,
+				BCEACD8426947C5500E982E2 /* EnglishGreeter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEACDB22695B72D00E982E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEACDC72695C84A00E982E2 /* ItalianGreeter.java in Sources */,
+				BCEACDC22695BA7000E982E2 /* SpanishGreeter.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,13 +423,21 @@
 /* Begin PBXTargetDependency section */
 		BCEACD4626946CF300E982E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = BCEACD3926946CF200E982E2 /* Framework1 */;
 			targetProxy = BCEACD4526946CF300E982E2 /* PBXContainerItemProxy */;
 		};
 		BCEACDAD2695AF2200E982E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = BCEACD7F26947C5500E982E2 /* Library1 */;
 			targetProxy = BCEACDAC2695AF2200E982E2 /* PBXContainerItemProxy */;
+		};
+		BCEACDCE2696112B00E982E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = BCEACDB52695B72D00E982E2 /* Library2 */;
+			targetProxy = BCEACDCD2696112B00E982E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -452,6 +562,7 @@
 		};
 		BCEACD4F26946CF300E982E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCEACDCF2696149700E982E2 /* Framework1Config.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -468,12 +579,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xcode.experiments.Framework1;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		BCEACD5026946CF300E982E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCEACDCF2696149700E982E2 /* Framework1Config.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -490,12 +603,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xcode.experiments.Framework1;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		BCEACD5226946CF300E982E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCEACDD02696159B00E982E2 /* Framework1TestsConfig.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Framework1Tests/Info.plist;
@@ -515,6 +630,7 @@
 		};
 		BCEACD5326946CF300E982E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCEACDD02696159B00E982E2 /* Framework1TestsConfig.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Framework1Tests/Info.plist;
@@ -547,6 +663,40 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCEACDBD2695B72D00E982E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCEACDCA2695CEBB00E982E2 /* Library2Config.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCEACDBE2695B72D00E982E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCEACDCA2695CEBB00E982E2 /* Library2Config.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -588,6 +738,15 @@
 			buildConfigurations = (
 				BCEACD8626947C5500E982E2 /* Debug */,
 				BCEACD8726947C5500E982E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCEACDBC2695B72D00E982E2 /* Build configuration list for PBXNativeTarget "Library2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEACDBD2695B72D00E982E2 /* Debug */,
+				BCEACDBE2695B72D00E982E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -5,9 +5,9 @@
 //  Created by Adil Hussain on 06/07/2021.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
-@interface Greeter : NSObject
+@interface EnglishGreeter : NSObject
 
 -(NSString *)greeting;
 

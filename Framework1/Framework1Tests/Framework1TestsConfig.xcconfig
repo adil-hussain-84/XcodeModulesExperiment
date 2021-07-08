@@ -1,0 +1,16 @@
+//
+//  Framework1TestsConfig.xcconfig
+//  Framework1
+//
+//  Created by Adil Hussain on 07/07/2021.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Change this path to wherever J2ObjC is installed on your machine
+J2OBJC_HOME = /Users/adilhussain/Library/J2ObjC/j2objc-2.7-Java11
+
+HEADER_SEARCH_PATHS = $(inherited) ${J2OBJC_HOME}/include;
+LIBRARY_SEARCH_PATHS = $(inherited) ${J2OBJC_HOME}/lib;
+OTHER_LDFLAGS = $(inherited) -liconv;

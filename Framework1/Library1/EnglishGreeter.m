@@ -5,9 +5,9 @@
 //  Created by Adil Hussain on 06/07/2021.
 //
 
-#import "Greeter.h"
+#import "EnglishGreeter.h"
 
-@implementation Greeter
+@implementation EnglishGreeter
 
 -(NSString *)greeting {
     return @"Hello";

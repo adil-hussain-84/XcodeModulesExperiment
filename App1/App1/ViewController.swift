@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
         let someAwesomeFramework = SomeAwesomeFramework()
         
-        let greeting = someAwesomeFramework.greeting()
+        let greeting = someAwesomeFramework.greetings()
         
         label.text = greeting
     }

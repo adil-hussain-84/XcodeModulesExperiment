@@ -15,19 +15,51 @@ class GreetingHelperTests2: XCTestCase {
         greetingHelper = GreetingHelper()
     }
     
-    func test_greeting_1() {
+    func test_englishGreeting_1() {
         // When.
-        let greeting = greetingHelper.greeting()
+        let greeting = greetingHelper.englishGreeting()
         
         // Then.
         XCTAssertEqual("Hello", greeting)
     }
     
-    func test_greeting_2() {
+    func test_englishGreeting_2() {
         // When.
-        let greeting = greetingHelper.greeting()
+        let greeting = greetingHelper.englishGreeting()
         
         // Then.
-        XCTAssertEqual(Greeter().greeting(), greeting)
+        XCTAssertEqual(EnglishGreeter().greeting(), greeting)
+    }
+    
+    func test_italianGreeting_1() {
+        // When.
+        let greeting = greetingHelper.italianGreeting()
+        
+        // Then.
+        XCTAssertEqual("Ciao", greeting)
+    }
+    
+    func test_italianGreeting_2() {
+        // When.
+        let greeting = greetingHelper.italianGreeting()
+        
+        // Then.
+        XCTAssertEqual(ItalianGreeter().greeting(), greeting)
+    }
+    
+    func test_spanishGreeting_1() {
+        // When.
+        let greeting = greetingHelper.spanishGreeting()
+        
+        // Then.
+        XCTAssertEqual("Hola", greeting)
+    }
+    
+    func test_spanishGreeting_2() {
+        // When.
+        let greeting = greetingHelper.spanishGreeting()
+        
+        // Then.
+        XCTAssertEqual(SpanishGreeter().greeting(), greeting)
     }
 }

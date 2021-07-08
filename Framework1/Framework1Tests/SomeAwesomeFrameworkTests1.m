@@ -7,7 +7,9 @@
 
 @import XCTest;
 @import Framework1;
-#import <Library1/Greeter.h>
+#import <Library1/EnglishGreeter.h>
+#import <Library2/ItalianGreeter.h>
+#import <Library2/SpanishGreeter.h>
 
 @interface SomeAwesomeFrameworkTests1 : XCTestCase
 @end
@@ -21,20 +23,28 @@
     someAwesomeFramework = [[SomeAwesomeFramework alloc] init];
 }
 
-- (void)test_greeting_1 {
+- (void)test_greetings_1 {
     // When.
-    NSString *greeting = [someAwesomeFramework greeting];
+    NSString *greetings = [someAwesomeFramework greetings];
     
     // Then.
-    XCTAssertEqualObjects(@"Hello", greeting);
+    XCTAssertEqualObjects(@"Hello Ciao Hola", greetings);
 }
 
-- (void)test_greeting_2 {
+- (void)test_greetings_2 {
     // When.
-    NSString *greeting = [someAwesomeFramework greeting];
+    NSString *greetings = [someAwesomeFramework greetings];
     
     // Then.
-    XCTAssertEqualObjects([[[Greeter alloc] init] greeting], greeting);
+    NSMutableString *expected = [NSMutableString string];
+    
+    [expected appendString:[[[EnglishGreeter alloc] init] greeting]];
+    [expected appendString:@" "];
+    [expected appendString:[[[ItalianGreeter alloc] init] greeting]];
+    [expected appendString:@" "];
+    [expected appendString:[[[SpanishGreeter alloc] init] greeting]];
+    
+    XCTAssertEqualObjects(expected, greetings);
 }
 
 @end
