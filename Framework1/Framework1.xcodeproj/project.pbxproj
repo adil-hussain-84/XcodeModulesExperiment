@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCE20A50269DD8870097203F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE20A4F269DD8870097203F /* AppDelegate.swift */; };
+		BCE20A52269DD8870097203F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE20A51269DD8870097203F /* SceneDelegate.swift */; };
+		BCE20A54269DD8870097203F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE20A53269DD8870097203F /* ViewController.swift */; };
+		BCE20A57269DD8870097203F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE20A55269DD8870097203F /* Main.storyboard */; };
+		BCE20A59269DD88B0097203F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE20A58269DD88B0097203F /* Assets.xcassets */; };
+		BCE20A5C269DD88B0097203F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE20A5A269DD88B0097203F /* LaunchScreen.storyboard */; };
 		BCEACD4926946CF300E982E2 /* SomeAwesomeFrameworkTests1.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD4826946CF300E982E2 /* SomeAwesomeFrameworkTests1.m */; platformFilter = ios; };
 		BCEACD4B26946CF300E982E2 /* Framework1.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEACD3D26946CF200E982E2 /* Framework1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCEACD79269470A700E982E2 /* SomeAwesomeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEACD77269470A700E982E2 /* SomeAwesomeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,6 +48,13 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
+		BCE20A61269DD8940097203F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCEACD3126946CF200E982E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE20A4C269DD8870097203F;
+			remoteInfo = TestApp;
+		};
 		BCEACD4526946CF300E982E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BCEACD3126946CF200E982E2 /* Project object */;
@@ -79,6 +92,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BCE20A4D269DD8870097203F /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE20A4F269DD8870097203F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCE20A51269DD8870097203F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCE20A53269DD8870097203F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCE20A56269DD8870097203F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCE20A58269DD88B0097203F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCE20A5B269DD88B0097203F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCE20A5D269DD88B0097203F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCEACD3A26946CF200E982E2 /* Framework1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Framework1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEACD3D26946CF200E982E2 /* Framework1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Framework1.h; sourceTree = "<group>"; };
 		BCEACD3E26946CF200E982E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,6 +127,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BCE20A4A269DD8870097203F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BCEACD3726946CF200E982E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +161,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BCE20A4E269DD8870097203F /* TestApp */ = {
+			isa = PBXGroup;
+			children = (
+				BCE20A4F269DD8870097203F /* AppDelegate.swift */,
+				BCE20A51269DD8870097203F /* SceneDelegate.swift */,
+				BCE20A53269DD8870097203F /* ViewController.swift */,
+				BCE20A55269DD8870097203F /* Main.storyboard */,
+				BCE20A58269DD88B0097203F /* Assets.xcassets */,
+				BCE20A5A269DD88B0097203F /* LaunchScreen.storyboard */,
+				BCE20A5D269DD88B0097203F /* Info.plist */,
+			);
+			path = TestApp;
+			sourceTree = "<group>";
+		};
 		BCEACD3026946CF200E982E2 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +182,7 @@
 				BCEACD4726946CF300E982E2 /* Framework1Tests */,
 				BCEACD8126947C5500E982E2 /* Library1 */,
 				BCEACDB72695B72D00E982E2 /* Library2 */,
+				BCE20A4E269DD8870097203F /* TestApp */,
 				BCEACD3B26946CF200E982E2 /* Products */,
 				BCEACD8A26947D2D00E982E2 /* Frameworks */,
 			);
@@ -152,6 +195,7 @@
 				BCEACD4326946CF300E982E2 /* Framework1Tests.xctest */,
 				BCEACD8026947C5500E982E2 /* libLibrary1.a */,
 				BCEACDB62695B72D00E982E2 /* libLibrary2.a */,
+				BCE20A4D269DD8870097203F /* TestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,6 +271,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		BCE20A4C269DD8870097203F /* TestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE20A60269DD88B0097203F /* Build configuration list for PBXNativeTarget "TestApp" */;
+			buildPhases = (
+				BCE20A49269DD8870097203F /* Sources */,
+				BCE20A4A269DD8870097203F /* Frameworks */,
+				BCE20A4B269DD8870097203F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestApp;
+			productName = TestApp;
+			productReference = BCE20A4D269DD8870097203F /* TestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BCEACD3926946CF200E982E2 /* Framework1 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCEACD4E26946CF300E982E2 /* Build configuration list for PBXNativeTarget "Framework1" */;
@@ -259,6 +320,7 @@
 			);
 			dependencies = (
 				BCEACD4626946CF300E982E2 /* PBXTargetDependency */,
+				BCE20A62269DD8940097203F /* PBXTargetDependency */,
 			);
 			name = Framework1Tests;
 			productName = Framework1Tests;
@@ -305,14 +367,19 @@
 		BCEACD3126946CF200E982E2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					BCE20A4C269DD8870097203F = {
+						CreatedOnToolsVersion = 12.5;
+					};
 					BCEACD3926946CF200E982E2 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 					BCEACD4226946CF300E982E2 = {
 						CreatedOnToolsVersion = 12.5;
 						LastSwiftMigration = 1250;
+						TestTargetID = BCE20A4C269DD8870097203F;
 					};
 					BCEACD7F26947C5500E982E2 = {
 						CreatedOnToolsVersion = 12.5;
@@ -339,11 +406,22 @@
 				BCEACD4226946CF300E982E2 /* Framework1Tests */,
 				BCEACD7F26947C5500E982E2 /* Library1 */,
 				BCEACDB52695B72D00E982E2 /* Library2 */,
+				BCE20A4C269DD8870097203F /* TestApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BCE20A4B269DD8870097203F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE20A5C269DD88B0097203F /* LaunchScreen.storyboard in Resources */,
+				BCE20A59269DD88B0097203F /* Assets.xcassets in Resources */,
+				BCE20A57269DD8870097203F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BCEACD3826946CF200E982E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,6 +459,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BCE20A49269DD8870097203F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE20A54269DD8870097203F /* ViewController.swift in Sources */,
+				BCE20A50269DD8870097203F /* AppDelegate.swift in Sources */,
+				BCE20A52269DD8870097203F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BCEACD3626946CF200E982E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -421,6 +509,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BCE20A62269DD8940097203F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = BCE20A4C269DD8870097203F /* TestApp */;
+			targetProxy = BCE20A61269DD8940097203F /* PBXContainerItemProxy */;
+		};
 		BCEACD4626946CF300E982E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			platformFilter = ios;
@@ -441,7 +535,66 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		BCE20A55269DD8870097203F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE20A56269DD8870097203F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCE20A5A269DD88B0097203F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE20A5B269DD88B0097203F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		BCE20A5E269DD88B0097203F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xcode.experiments.TestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCE20A5F269DD88B0097203F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xcode.experiments.TestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		BCEACD4C26946CF300E982E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -625,6 +778,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Framework1Tests/Framework1Tests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp.app/TestApp";
 			};
 			name = Debug;
 		};
@@ -644,6 +798,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Framework1Tests/Framework1Tests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp.app/TestApp";
 			};
 			name = Release;
 		};
@@ -706,6 +861,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BCE20A60269DD88B0097203F /* Build configuration list for PBXNativeTarget "TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE20A5E269DD88B0097203F /* Debug */,
+				BCE20A5F269DD88B0097203F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BCEACD3426946CF200E982E2 /* Build configuration list for PBXProject "Framework1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
