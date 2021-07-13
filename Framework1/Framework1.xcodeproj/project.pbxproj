@@ -22,7 +22,7 @@
 		BCEACDC22695BA7000E982E2 /* SpanishGreeter.java in Sources */ = {isa = PBXBuildFile; fileRef = BCEACDC12695BA7000E982E2 /* SpanishGreeter.java */; platformFilter = ios; };
 		BCEACDC72695C84A00E982E2 /* ItalianGreeter.java in Sources */ = {isa = PBXBuildFile; fileRef = BCEACDC52695C68300E982E2 /* ItalianGreeter.java */; platformFilter = ios; };
 		BCEACDD126961B6B00E982E2 /* libLibrary2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEACDB62695B72D00E982E2 /* libLibrary2.a */; platformFilter = ios; };
-		BCEACDD42696269E00E982E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEACDD32696269E00E982E2 /* UIKit.framework */; };
+		BCEACDD42696269E00E982E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEACDD32696269E00E982E2 /* UIKit.framework */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -499,6 +499,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -622,7 +623,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xcode.experiments.Framework1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Framework1Tests/Framework1Tests-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
