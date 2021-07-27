@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B486BF954D27B01494171084 /* Pods_Framework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B077DC11504ADF9BB5B71089 /* Pods_Framework1.framework */; };
+		BC30182026AF26BB00BE4B1B /* IOSClassTests1.m in Sources */ = {isa = PBXBuildFile; fileRef = BC30181F26AF26BB00BE4B1B /* IOSClassTests1.m */; };
+		BC30182226AF272700BE4B1B /* IOSClassTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC30182126AF272700BE4B1B /* IOSClassTests2.swift */; };
 		BCE20A50269DD8870097203F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE20A4F269DD8870097203F /* AppDelegate.swift */; };
 		BCE20A52269DD8870097203F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE20A51269DD8870097203F /* SceneDelegate.swift */; };
 		BCE20A54269DD8870097203F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE20A53269DD8870097203F /* ViewController.swift */; };
@@ -29,6 +32,7 @@
 		BCEACDC72695C84A00E982E2 /* ItalianGreeter.java in Sources */ = {isa = PBXBuildFile; fileRef = BCEACDC52695C68300E982E2 /* ItalianGreeter.java */; platformFilter = ios; };
 		BCEACDD126961B6B00E982E2 /* libLibrary2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEACDB62695B72D00E982E2 /* libLibrary2.a */; platformFilter = ios; };
 		BCEACDD42696269E00E982E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEACDD32696269E00E982E2 /* UIKit.framework */; platformFilter = ios; };
+		D9A190E3B01B7C6786819002 /* Pods_Framework1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A76A5989DA0EBCB7F30CCC4 /* Pods_Framework1Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -92,6 +96,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		090777CD5CEBEB6BD27625AB /* Pods-Framework1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framework1Tests.debug.xcconfig"; path = "Target Support Files/Pods-Framework1Tests/Pods-Framework1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C963E34EC129AA5B21A7C49 /* Pods-Framework1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framework1.debug.xcconfig"; path = "Target Support Files/Pods-Framework1/Pods-Framework1.debug.xcconfig"; sourceTree = "<group>"; };
+		6A76A5989DA0EBCB7F30CCC4 /* Pods_Framework1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Framework1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E17528C8793B0EB9FDDF031 /* Pods-Framework1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framework1Tests.release.xcconfig"; path = "Target Support Files/Pods-Framework1Tests/Pods-Framework1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B02929439E6C96054EF10097 /* Pods-Framework1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framework1.release.xcconfig"; path = "Target Support Files/Pods-Framework1/Pods-Framework1.release.xcconfig"; sourceTree = "<group>"; };
+		B077DC11504ADF9BB5B71089 /* Pods_Framework1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Framework1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC30181D26AF255800BE4B1B /* Framework1Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Framework1Config.xcconfig; sourceTree = "<group>"; };
+		BC30181F26AF26BB00BE4B1B /* IOSClassTests1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSClassTests1.m; sourceTree = "<group>"; };
+		BC30182126AF272700BE4B1B /* IOSClassTests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSClassTests2.swift; sourceTree = "<group>"; };
 		BCE20A4D269DD8870097203F /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE20A4F269DD8870097203F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCE20A51269DD8870097203F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,13 +133,17 @@
 		BCEACDB62695B72D00E982E2 /* libLibrary2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibrary2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEACDC12695BA7000E982E2 /* SpanishGreeter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SpanishGreeter.java; sourceTree = "<group>"; };
 		BCEACDC52695C68300E982E2 /* ItalianGreeter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ItalianGreeter.java; sourceTree = "<group>"; };
-		BCEACDCA2695CEBB00E982E2 /* Library2Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Library2Config.xcconfig; sourceTree = "<group>"; };
-		BCEACDCF2696149700E982E2 /* Framework1Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework1Config.xcconfig; sourceTree = "<group>"; };
-		BCEACDD02696159B00E982E2 /* Framework1TestsConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework1TestsConfig.xcconfig; sourceTree = "<group>"; };
 		BCEACDD32696269E00E982E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0B8D6142EDDE9578A6FAFB62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BCE20A4A269DD8870097203F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,6 +158,7 @@
 				BCEACDD42696269E00E982E2 /* UIKit.framework in Frameworks */,
 				BCEACDAB2695AF1A00E982E2 /* libLibrary1.a in Frameworks */,
 				BCEACDD126961B6B00E982E2 /* libLibrary2.a in Frameworks */,
+				B486BF954D27B01494171084 /* Pods_Framework1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A190E3B01B7C6786819002 /* Pods_Framework1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,12 +198,14 @@
 			isa = PBXGroup;
 			children = (
 				BCEACD3C26946CF200E982E2 /* Framework1 */,
+				BC30181D26AF255800BE4B1B /* Framework1Config.xcconfig */,
 				BCEACD4726946CF300E982E2 /* Framework1Tests */,
+				BCEACD8A26947D2D00E982E2 /* Frameworks */,
 				BCEACD8126947C5500E982E2 /* Library1 */,
 				BCEACDB72695B72D00E982E2 /* Library2 */,
-				BCE20A4E269DD8870097203F /* TestApp */,
+				C79782C63DF1626948DA7748 /* Pods */,
 				BCEACD3B26946CF200E982E2 /* Products */,
-				BCEACD8A26947D2D00E982E2 /* Frameworks */,
+				BCE20A4E269DD8870097203F /* TestApp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -204,7 +225,6 @@
 			isa = PBXGroup;
 			children = (
 				BCEACD3D26946CF200E982E2 /* Framework1.h */,
-				BCEACDCF2696149700E982E2 /* Framework1Config.xcconfig */,
 				BCEACD902694A03700E982E2 /* GreetingHelper.h */,
 				BCEACD912694A03700E982E2 /* GreetingHelper.m */,
 				BCEACD3E26946CF200E982E2 /* Info.plist */,
@@ -218,10 +238,11 @@
 			isa = PBXGroup;
 			children = (
 				BCEACD8D2694907E00E982E2 /* Framework1Tests-Bridging-Header.h */,
-				BCEACDD02696159B00E982E2 /* Framework1TestsConfig.xcconfig */,
 				BCEACD972694A11C00E982E2 /* GreetingHelperTests1.m */,
 				BCEACD992694A1DC00E982E2 /* GreetingHelperTests2.swift */,
 				BCEACD4A26946CF300E982E2 /* Info.plist */,
+				BC30181F26AF26BB00BE4B1B /* IOSClassTests1.m */,
+				BC30182126AF272700BE4B1B /* IOSClassTests2.swift */,
 				BCEACD4826946CF300E982E2 /* SomeAwesomeFrameworkTests1.m */,
 				BCEACD8E2694907F00E982E2 /* SomeAwesomeFrameworkTests2.swift */,
 			);
@@ -241,6 +262,8 @@
 			isa = PBXGroup;
 			children = (
 				BCEACDD32696269E00E982E2 /* UIKit.framework */,
+				B077DC11504ADF9BB5B71089 /* Pods_Framework1.framework */,
+				6A76A5989DA0EBCB7F30CCC4 /* Pods_Framework1Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -249,10 +272,21 @@
 			isa = PBXGroup;
 			children = (
 				BCEACDC52695C68300E982E2 /* ItalianGreeter.java */,
-				BCEACDCA2695CEBB00E982E2 /* Library2Config.xcconfig */,
 				BCEACDC12695BA7000E982E2 /* SpanishGreeter.java */,
 			);
 			path = Library2;
+			sourceTree = "<group>";
+		};
+		C79782C63DF1626948DA7748 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C963E34EC129AA5B21A7C49 /* Pods-Framework1.debug.xcconfig */,
+				B02929439E6C96054EF10097 /* Pods-Framework1.release.xcconfig */,
+				090777CD5CEBEB6BD27625AB /* Pods-Framework1Tests.debug.xcconfig */,
+				8E17528C8793B0EB9FDDF031 /* Pods-Framework1Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +326,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCEACD4E26946CF300E982E2 /* Build configuration list for PBXNativeTarget "Framework1" */;
 			buildPhases = (
+				8CD1161D331EA59BCAD1F658 /* [CP] Check Pods Manifest.lock */,
 				BCEACD3526946CF200E982E2 /* Headers */,
 				BCEACD3626946CF200E982E2 /* Sources */,
 				BCEACD3726946CF200E982E2 /* Frameworks */,
@@ -312,6 +347,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCEACD5126946CF300E982E2 /* Build configuration list for PBXNativeTarget "Framework1Tests" */;
 			buildPhases = (
+				193D29AB12376E955BAF7E6B /* [CP] Check Pods Manifest.lock */,
 				BCEACD3F26946CF300E982E2 /* Sources */,
 				BCEACD4026946CF300E982E2 /* Frameworks */,
 				BCEACD4126946CF300E982E2 /* Resources */,
@@ -350,6 +386,7 @@
 			buildPhases = (
 				BCEACDC42695BADD00E982E2 /* ShellScript */,
 				BCEACDB22695B72D00E982E2 /* Sources */,
+				0B8D6142EDDE9578A6FAFB62 /* Frameworks */,
 			);
 			buildRules = (
 				BCEACDC92695CDE200E982E2 /* PBXBuildRule */,
@@ -439,6 +476,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		193D29AB12376E955BAF7E6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Framework1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CD1161D331EA59BCAD1F658 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Framework1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BCEACDC42695BADD00E982E2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -484,8 +565,10 @@
 			files = (
 				BCEACD982694A11C00E982E2 /* GreetingHelperTests1.m in Sources */,
 				BCEACD8F2694907F00E982E2 /* SomeAwesomeFrameworkTests2.swift in Sources */,
+				BC30182026AF26BB00BE4B1B /* IOSClassTests1.m in Sources */,
 				BCEACD4926946CF300E982E2 /* SomeAwesomeFrameworkTests1.m in Sources */,
 				BCEACD9A2694A1DC00E982E2 /* GreetingHelperTests2.swift in Sources */,
+				BC30182226AF272700BE4B1B /* IOSClassTests2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +680,7 @@
 		};
 		BCEACD4C26946CF300E982E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC30181D26AF255800BE4B1B /* Framework1Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -648,6 +732,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				J2OBJC_HOME = "/Users/adilhussain/Library/J2ObjC/j2objc-2.7-Java11";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -660,6 +745,7 @@
 		};
 		BCEACD4D26946CF300E982E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC30181D26AF255800BE4B1B /* Framework1Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -705,9 +791,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				J2OBJC_HOME = "/Users/adilhussain/Library/J2ObjC/j2objc-2.7-Java11";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -716,7 +804,7 @@
 		};
 		BCEACD4F26946CF300E982E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCEACDCF2696149700E982E2 /* Framework1Config.xcconfig */;
+			baseConfigurationReference = 3C963E34EC129AA5B21A7C49 /* Pods-Framework1.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -729,6 +817,28 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"iconv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ljre_core",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xcode.experiments.Framework1;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -740,7 +850,7 @@
 		};
 		BCEACD5026946CF300E982E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCEACDCF2696149700E982E2 /* Framework1Config.xcconfig */;
+			baseConfigurationReference = B02929439E6C96054EF10097 /* Pods-Framework1.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -754,6 +864,28 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"iconv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ljre_core",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = xcode.experiments.Framework1;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -764,7 +896,7 @@
 		};
 		BCEACD5226946CF300E982E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCEACDD02696159B00E982E2 /* Framework1TestsConfig.xcconfig */;
+			baseConfigurationReference = 090777CD5CEBEB6BD27625AB /* Pods-Framework1Tests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Framework1Tests/Info.plist;
@@ -784,7 +916,7 @@
 		};
 		BCEACD5326946CF300E982E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCEACDD02696159B00E982E2 /* Framework1TestsConfig.xcconfig */;
+			baseConfigurationReference = 8E17528C8793B0EB9FDDF031 /* Pods-Framework1Tests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Framework1Tests/Info.plist;
@@ -806,7 +938,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -817,7 +948,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -826,15 +956,10 @@
 		};
 		BCEACDBD2695B72D00E982E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCEACDCA2695CEBB00E982E2 /* Library2Config.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -843,15 +968,10 @@
 		};
 		BCEACDBE2695B72D00E982E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCEACDCA2695CEBB00E982E2 /* Library2Config.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -6,3 +6,4 @@
 #import <Library1/EnglishGreeter.h>
 #import <Library2/ItalianGreeter.h>
 #import <Library2/SpanishGreeter.h>
+#import <IOSClass.h>
