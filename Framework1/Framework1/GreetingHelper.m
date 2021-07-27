@@ -13,15 +13,15 @@
 @implementation GreetingHelper
 
 -(NSString *)englishGreeting {
-    return [[[EnglishGreeter alloc] init] greeting];
+    return [[[ABCEnglishGreeter alloc] init] greeting];
 }
 
 -(NSString *)italianGreeting {
-    return [[[ItalianGreeter alloc] init] greeting];
+    return [[[ABCItalianGreeter alloc] init] greeting];
 }
 
 -(NSString *)spanishGreeting {
-    return [[[SpanishGreeter alloc] init] greeting];
+    return [[[ABCSpanishGreeter alloc] init] greeting];
 }
 
 @end

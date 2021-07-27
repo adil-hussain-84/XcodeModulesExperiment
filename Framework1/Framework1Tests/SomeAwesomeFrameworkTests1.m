@@ -38,11 +38,11 @@
     // Then.
     NSMutableString *expected = [NSMutableString string];
     
-    [expected appendString:[[[EnglishGreeter alloc] init] greeting]];
+    [expected appendString:[[[ABCEnglishGreeter alloc] init] greeting]];
     [expected appendString:@" "];
-    [expected appendString:[[[ItalianGreeter alloc] init] greeting]];
+    [expected appendString:[[[ABCItalianGreeter alloc] init] greeting]];
     [expected appendString:@" "];
-    [expected appendString:[[[SpanishGreeter alloc] init] greeting]];
+    [expected appendString:[[[ABCSpanishGreeter alloc] init] greeting]];
     
     XCTAssertEqualObjects(expected, greetings);
 }

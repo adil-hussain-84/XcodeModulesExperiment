@@ -28,7 +28,7 @@ class GreetingHelperTests2: XCTestCase {
         let greeting = greetingHelper.englishGreeting()
         
         // Then.
-        XCTAssertEqual(EnglishGreeter().greeting(), greeting)
+        XCTAssertEqual(ABCEnglishGreeter().greeting(), greeting)
     }
     
     func test_italianGreeting_1() {
@@ -44,7 +44,7 @@ class GreetingHelperTests2: XCTestCase {
         let greeting = greetingHelper.italianGreeting()
         
         // Then.
-        XCTAssertEqual(ItalianGreeter().greeting(), greeting)
+        XCTAssertEqual(ABCItalianGreeter().greeting(), greeting)
     }
     
     func test_spanishGreeting_1() {
@@ -60,6 +60,6 @@ class GreetingHelperTests2: XCTestCase {
         let greeting = greetingHelper.spanishGreeting()
         
         // Then.
-        XCTAssertEqual(SpanishGreeter().greeting(), greeting)
+        XCTAssertEqual(ABCSpanishGreeter().greeting(), greeting)
     }
 }

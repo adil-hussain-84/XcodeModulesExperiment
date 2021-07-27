@@ -16,9 +16,14 @@
 - (void)test_forName {
     XCTAssertNotNil([IOSClass forName:@"NSString"]);
     XCTAssertNotNil([IOSClass forName:@"java.lang.String"]);
-    XCTAssertNotNil([IOSClass forName:@"EnglishGreeter"]);
-    XCTAssertNotNil([IOSClass forName:@"ItalianGreeter"]);
-    XCTAssertNotNil([IOSClass forName:@"SpanishGreeter"]);
+    
+    XCTAssertNotNil([IOSClass forName:@"ABCEnglishGreeter"]);
+    
+    XCTAssertNotNil([IOSClass forName:@"ABCItalianGreeter"]);
+    XCTAssertNotNil([IOSClass forName:@"com.greeter.ItalianGreeter"]);
+    
+    XCTAssertNotNil([IOSClass forName:@"ABCSpanishGreeter"]);
+    XCTAssertNotNil([IOSClass forName:@"com.greeter.SpanishGreeter"]);
 }
 
 @end

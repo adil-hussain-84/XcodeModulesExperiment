@@ -7,7 +7,7 @@
 
 #import "EnglishGreeter.h"
 
-@implementation EnglishGreeter
+@implementation ABCEnglishGreeter
 
 -(NSString *)greeting {
     return @"Hello";

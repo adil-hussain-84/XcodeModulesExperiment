@@ -1,0 +1,13 @@
+//
+//  Library2Config.xcconfig
+//  Library2
+//
+//  Created by Adil Hussain on 27/07/2021.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+PREFIXES_PROPERTIES_PATH = ${SRCROOT}/${TARGET_NAME}/prefixes.properties;
+
+CLANG_ENABLE_OBJC_ARC = NO

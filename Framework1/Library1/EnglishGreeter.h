@@ -7,7 +7,7 @@
 
 @import Foundation;
 
-@interface EnglishGreeter : NSObject
+@interface ABCEnglishGreeter : NSObject
 
 -(NSString *)greeting;
 

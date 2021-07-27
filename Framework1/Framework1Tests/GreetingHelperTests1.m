@@ -37,7 +37,7 @@
     NSString *greeting = [greetingHelper englishGreeting];
     
     // Then.
-    XCTAssertEqualObjects([[[EnglishGreeter alloc] init] greeting], greeting);
+    XCTAssertEqualObjects([[[ABCEnglishGreeter alloc] init] greeting], greeting);
 }
 
 - (void)test_italianGreeting_1 {
@@ -53,7 +53,7 @@
     NSString *greeting = [greetingHelper italianGreeting];
     
     // Then.
-    XCTAssertEqualObjects([[[ItalianGreeter alloc] init] greeting], greeting);
+    XCTAssertEqualObjects([[[ABCItalianGreeter alloc] init] greeting], greeting);
 }
 
 - (void)test_spanishGreeting_1 {
@@ -69,7 +69,7 @@
     NSString *greeting = [greetingHelper spanishGreeting];
     
     // Then.
-    XCTAssertEqualObjects([[[SpanishGreeter alloc] init] greeting], greeting);
+    XCTAssertEqualObjects([[[ABCSpanishGreeter alloc] init] greeting], greeting);
 }
 
 @end

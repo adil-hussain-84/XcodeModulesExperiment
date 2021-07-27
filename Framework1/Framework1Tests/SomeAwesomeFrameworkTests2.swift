@@ -30,7 +30,7 @@ class SomeAwesomeFrameworkTests2: XCTestCase {
         let greeting = someAwesomeFramework.greetings()
         
         // Then.
-        let expected = "\(EnglishGreeter().greeting()!) \(ItalianGreeter().greeting()!) \(SpanishGreeter().greeting()!)";
+        let expected = "\(ABCEnglishGreeter().greeting()!) \(ABCItalianGreeter().greeting()!) \(ABCSpanishGreeter().greeting()!)";
         
         XCTAssertEqual(expected, greeting)
     }

@@ -10,6 +10,8 @@
 		B486BF954D27B01494171084 /* Pods_Framework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B077DC11504ADF9BB5B71089 /* Pods_Framework1.framework */; };
 		BC30182026AF26BB00BE4B1B /* IOSClassTests1.m in Sources */ = {isa = PBXBuildFile; fileRef = BC30181F26AF26BB00BE4B1B /* IOSClassTests1.m */; };
 		BC30182226AF272700BE4B1B /* IOSClassTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC30182126AF272700BE4B1B /* IOSClassTests2.swift */; };
+		BC30182B26B01B4700BE4B1B /* ItalianGreeter.java in Sources */ = {isa = PBXBuildFile; fileRef = BC30182926B01B4700BE4B1B /* ItalianGreeter.java */; };
+		BC30182C26B01B4700BE4B1B /* SpanishGreeter.java in Sources */ = {isa = PBXBuildFile; fileRef = BC30182A26B01B4700BE4B1B /* SpanishGreeter.java */; };
 		BCE20A50269DD8870097203F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE20A4F269DD8870097203F /* AppDelegate.swift */; };
 		BCE20A52269DD8870097203F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE20A51269DD8870097203F /* SceneDelegate.swift */; };
 		BCE20A54269DD8870097203F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE20A53269DD8870097203F /* ViewController.swift */; };
@@ -28,8 +30,6 @@
 		BCEACD982694A11C00E982E2 /* GreetingHelperTests1.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD972694A11C00E982E2 /* GreetingHelperTests1.m */; platformFilter = ios; };
 		BCEACD9A2694A1DC00E982E2 /* GreetingHelperTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEACD992694A1DC00E982E2 /* GreetingHelperTests2.swift */; platformFilter = ios; };
 		BCEACDAB2695AF1A00E982E2 /* libLibrary1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEACD8026947C5500E982E2 /* libLibrary1.a */; platformFilter = ios; };
-		BCEACDC22695BA7000E982E2 /* SpanishGreeter.java in Sources */ = {isa = PBXBuildFile; fileRef = BCEACDC12695BA7000E982E2 /* SpanishGreeter.java */; platformFilter = ios; };
-		BCEACDC72695C84A00E982E2 /* ItalianGreeter.java in Sources */ = {isa = PBXBuildFile; fileRef = BCEACDC52695C68300E982E2 /* ItalianGreeter.java */; platformFilter = ios; };
 		BCEACDD126961B6B00E982E2 /* libLibrary2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEACDB62695B72D00E982E2 /* libLibrary2.a */; platformFilter = ios; };
 		BCEACDD42696269E00E982E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEACDD32696269E00E982E2 /* UIKit.framework */; platformFilter = ios; };
 		D9A190E3B01B7C6786819002 /* Pods_Framework1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A76A5989DA0EBCB7F30CCC4 /* Pods_Framework1Tests.framework */; };
@@ -105,6 +105,10 @@
 		BC30181D26AF255800BE4B1B /* Framework1Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Framework1Config.xcconfig; sourceTree = "<group>"; };
 		BC30181F26AF26BB00BE4B1B /* IOSClassTests1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSClassTests1.m; sourceTree = "<group>"; };
 		BC30182126AF272700BE4B1B /* IOSClassTests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSClassTests2.swift; sourceTree = "<group>"; };
+		BC30182926B01B4700BE4B1B /* ItalianGreeter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ItalianGreeter.java; sourceTree = "<group>"; };
+		BC30182A26B01B4700BE4B1B /* SpanishGreeter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SpanishGreeter.java; sourceTree = "<group>"; };
+		BC30182D26B01BD800BE4B1B /* Library2Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Library2Config.xcconfig; sourceTree = "<group>"; };
+		BC30182E26B01E6900BE4B1B /* prefixes.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = prefixes.properties; sourceTree = "<group>"; };
 		BCE20A4D269DD8870097203F /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE20A4F269DD8870097203F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCE20A51269DD8870097203F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,8 +135,6 @@
 		BCEACD972694A11C00E982E2 /* GreetingHelperTests1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreetingHelperTests1.m; sourceTree = "<group>"; };
 		BCEACD992694A1DC00E982E2 /* GreetingHelperTests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingHelperTests2.swift; sourceTree = "<group>"; };
 		BCEACDB62695B72D00E982E2 /* libLibrary2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibrary2.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCEACDC12695BA7000E982E2 /* SpanishGreeter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SpanishGreeter.java; sourceTree = "<group>"; };
-		BCEACDC52695C68300E982E2 /* ItalianGreeter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ItalianGreeter.java; sourceTree = "<group>"; };
 		BCEACDD32696269E00E982E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -180,6 +182,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC30182726B01B4700BE4B1B /* com */ = {
+			isa = PBXGroup;
+			children = (
+				BC30182826B01B4700BE4B1B /* greeter */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		BC30182826B01B4700BE4B1B /* greeter */ = {
+			isa = PBXGroup;
+			children = (
+				BC30182926B01B4700BE4B1B /* ItalianGreeter.java */,
+				BC30182A26B01B4700BE4B1B /* SpanishGreeter.java */,
+			);
+			path = greeter;
+			sourceTree = "<group>";
+		};
 		BCE20A4E269DD8870097203F /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,8 +290,9 @@
 		BCEACDB72695B72D00E982E2 /* Library2 */ = {
 			isa = PBXGroup;
 			children = (
-				BCEACDC52695C68300E982E2 /* ItalianGreeter.java */,
-				BCEACDC12695BA7000E982E2 /* SpanishGreeter.java */,
+				BC30182726B01B4700BE4B1B /* com */,
+				BC30182D26B01BD800BE4B1B /* Library2Config.xcconfig */,
+				BC30182E26B01E6900BE4B1B /* prefixes.properties */,
 			);
 			path = Library2;
 			sourceTree = "<group>";
@@ -535,7 +555,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "JAVA_SOURCES_PATH=$SRCROOT/$TARGET_NAME\n\nJAVA_SOURCE_FILES=$(find \"${JAVA_SOURCES_PATH}\" -name '*.java')\n\n\"${J2OBJC_HOME}/j2objc\" -d \"${DERIVED_FILES_DIR}\" --batch-translate-max=40 --no-package-directories --doc-comments --nullability -sourcepath \"${JAVA_SOURCES_PATH}\" $JAVA_SOURCE_FILES\n\nHEADER_FILES=$(find \"${DERIVED_FILES_DIR}\" -name '*.h')\n\nmkdir -p $TARGET_BUILD_DIR/include/$TARGET_NAME\n\ncp $HEADER_FILES $TARGET_BUILD_DIR/include/$TARGET_NAME\n";
+			shellScript = "JAVA_SOURCES_PATH=$SRCROOT/$TARGET_NAME\n\nJAVA_SOURCE_FILES=$(find \"${JAVA_SOURCES_PATH}\" -name '*.java')\n\n\"${J2OBJC_HOME}/j2objc\" -d \"${DERIVED_FILES_DIR}\" --prefixes \"${PREFIXES_PROPERTIES_PATH}\" --batch-translate-max=40 --no-package-directories --doc-comments --nullability -sourcepath \"${JAVA_SOURCES_PATH}\" $JAVA_SOURCE_FILES\n\nHEADER_FILES=$(find \"${DERIVED_FILES_DIR}\" -name '*.h')\n\nmkdir -p $TARGET_BUILD_DIR/include/$TARGET_NAME\n\ncp $HEADER_FILES $TARGET_BUILD_DIR/include/$TARGET_NAME\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -584,8 +604,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCEACDC72695C84A00E982E2 /* ItalianGreeter.java in Sources */,
-				BCEACDC22695BA7000E982E2 /* SpanishGreeter.java in Sources */,
+				BC30182B26B01B4700BE4B1B /* ItalianGreeter.java in Sources */,
+				BC30182C26B01B4700BE4B1B /* SpanishGreeter.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -956,8 +976,8 @@
 		};
 		BCEACDBD2695B72D00E982E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC30182D26B01BD800BE4B1B /* Library2Config.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -968,8 +988,8 @@
 		};
 		BCEACDBE2695B72D00E982E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC30182D26B01BD800BE4B1B /* Library2Config.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
