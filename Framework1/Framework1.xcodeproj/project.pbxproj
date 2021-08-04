@@ -102,12 +102,12 @@
 		8E17528C8793B0EB9FDDF031 /* Pods-Framework1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framework1Tests.release.xcconfig"; path = "Target Support Files/Pods-Framework1Tests/Pods-Framework1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B02929439E6C96054EF10097 /* Pods-Framework1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framework1.release.xcconfig"; path = "Target Support Files/Pods-Framework1/Pods-Framework1.release.xcconfig"; sourceTree = "<group>"; };
 		B077DC11504ADF9BB5B71089 /* Pods_Framework1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Framework1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC30181D26AF255800BE4B1B /* Framework1Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Framework1Config.xcconfig; sourceTree = "<group>"; };
+		BC30181D26AF255800BE4B1B /* Framework1ProjectConfig.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Framework1ProjectConfig.xcconfig; sourceTree = "<group>"; };
 		BC30181F26AF26BB00BE4B1B /* IOSClassTests1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSClassTests1.m; sourceTree = "<group>"; };
 		BC30182126AF272700BE4B1B /* IOSClassTests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSClassTests2.swift; sourceTree = "<group>"; };
 		BC30182926B01B4700BE4B1B /* ItalianGreeter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ItalianGreeter.java; sourceTree = "<group>"; };
 		BC30182A26B01B4700BE4B1B /* SpanishGreeter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SpanishGreeter.java; sourceTree = "<group>"; };
-		BC30182D26B01BD800BE4B1B /* Library2Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Library2Config.xcconfig; sourceTree = "<group>"; };
+		BC30182D26B01BD800BE4B1B /* Library2TargetConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Library2TargetConfig.xcconfig; sourceTree = "<group>"; };
 		BC30182E26B01E6900BE4B1B /* prefixes.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = prefixes.properties; sourceTree = "<group>"; };
 		BCE20A4D269DD8870097203F /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE20A4F269DD8870097203F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -217,7 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				BCEACD3C26946CF200E982E2 /* Framework1 */,
-				BC30181D26AF255800BE4B1B /* Framework1Config.xcconfig */,
+				BC30181D26AF255800BE4B1B /* Framework1ProjectConfig.xcconfig */,
 				BCEACD4726946CF300E982E2 /* Framework1Tests */,
 				BCEACD8A26947D2D00E982E2 /* Frameworks */,
 				BCEACD8126947C5500E982E2 /* Library1 */,
@@ -291,7 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				BC30182726B01B4700BE4B1B /* com */,
-				BC30182D26B01BD800BE4B1B /* Library2Config.xcconfig */,
+				BC30182D26B01BD800BE4B1B /* Library2TargetConfig.xcconfig */,
 				BC30182E26B01E6900BE4B1B /* prefixes.properties */,
 			);
 			path = Library2;
@@ -700,7 +700,7 @@
 		};
 		BCEACD4C26946CF300E982E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC30181D26AF255800BE4B1B /* Framework1Config.xcconfig */;
+			baseConfigurationReference = BC30181D26AF255800BE4B1B /* Framework1ProjectConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -765,7 +765,7 @@
 		};
 		BCEACD4D26946CF300E982E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC30181D26AF255800BE4B1B /* Framework1Config.xcconfig */;
+			baseConfigurationReference = BC30181D26AF255800BE4B1B /* Framework1ProjectConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -976,7 +976,7 @@
 		};
 		BCEACDBD2695B72D00E982E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC30182D26B01BD800BE4B1B /* Library2Config.xcconfig */;
+			baseConfigurationReference = BC30182D26B01BD800BE4B1B /* Library2TargetConfig.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -988,7 +988,7 @@
 		};
 		BCEACDBE2695B72D00E982E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC30182D26B01BD800BE4B1B /* Library2Config.xcconfig */;
+			baseConfigurationReference = BC30182D26B01BD800BE4B1B /* Library2TargetConfig.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
